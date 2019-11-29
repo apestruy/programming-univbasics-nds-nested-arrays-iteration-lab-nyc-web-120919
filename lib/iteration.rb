@@ -2,7 +2,9 @@ def join_ingredients(src)
    results = []
    row_index = 0 
   while row_index < src.count do 
-      results << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
+      element0 = src[row_index][0]
+      element1 = src[row_index][1]
+      results << "I love #{element0} and #{element1} on my pizza"
     row_index += 1 
   end
   return results
@@ -12,8 +14,7 @@ def join_ingredients(src)
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
-  # element0 = src[row_index][0]
-  # element1 = src[row_index][1]
+  # that are in the inner Arrays
 end
 
 def total_even_pairs(src)
