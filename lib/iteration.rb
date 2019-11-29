@@ -5,10 +5,9 @@ def join_ingredients(src)
       element0 = src[row_index][0]
       element1 = src[row_index][1]
       results.push("I love #{element0} and #{element1} on my pizza")
-    outer_results << inner_results
     row_index += 1 
   end
-  return outer_results
+  return results
  end
   
   
