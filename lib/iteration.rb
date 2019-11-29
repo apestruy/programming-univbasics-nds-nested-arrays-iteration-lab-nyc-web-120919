@@ -34,7 +34,8 @@ def total_even_pairs(src)
     if (element0 % 2 == 0 && element1 % 2 == 0)
       results = (element0 + element1)
     total += results
-  end 
+  end
+end
     row_index += 1 
 end 
 total
