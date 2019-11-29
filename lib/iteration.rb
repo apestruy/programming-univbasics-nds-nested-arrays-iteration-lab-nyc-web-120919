@@ -7,6 +7,7 @@ def join_ingredients(src)
     while element_index < src[row_index].count do 
       inner_results.push("I love #{[row_index][0]} and #{[row_index][1]} on my pizza")
     end 
+    element_index += 1 
     end 
     outer_results << inner_results
     row_index += 1 
