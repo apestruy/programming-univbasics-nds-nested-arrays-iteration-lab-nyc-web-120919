@@ -5,7 +5,7 @@ def join_ingredients(src)
     element_index = 0 
     inner_results = []
     while element_index < src[row_index].count do 
-      inner_results.push("I love #{[row_index][0]} and #{[row_index][1]} on my pizza")
+      inner_results.push("I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza")
     end 
     element_index += 1 
     end 
