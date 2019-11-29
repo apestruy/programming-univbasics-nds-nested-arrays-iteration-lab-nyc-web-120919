@@ -12,7 +12,7 @@ def join_ingredients(src)
     outer_results << inner_results
     row_index += 1 
   end
-  
+  return outer_results
  
   
   
