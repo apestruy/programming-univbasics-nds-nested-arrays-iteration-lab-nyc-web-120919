@@ -1,6 +1,6 @@
 def join_ingredients(src)
-  results = []
   row_index = 0 
+  results = []
   while row_index < src.count do 
       element0 = src[row_index][0]
       element1 = src[row_index][1]
