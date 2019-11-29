@@ -6,12 +6,11 @@ def join_ingredients(src)
       element0 = src[row_index][0]
       element1 = src[row_index][1]
       inner_results.push("I love #{element0} and #{element1} on my pizza")
-    end 
     outer_results << inner_results
     row_index += 1 
   end
   return outer_results
- 
+ end
   
   
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
