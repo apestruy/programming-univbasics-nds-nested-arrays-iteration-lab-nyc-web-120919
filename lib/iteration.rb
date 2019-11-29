@@ -4,9 +4,13 @@ def join_ingredients(src)
   while row_index < src.count do 
     inner_results = []
     while element_index < src[row_index].count do 
-      puts "I love #{[row_index][0]} and #{[row_index][1]} on my pizza"
+      inner_results.push("I love #{[row_index][0]} and #{[row_index][1]} on my pizza")
+    end end 
+    outer_results << inner_results
+    row_index += 1 
+  end
   
-  
+  outer_results
   
   
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
